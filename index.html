@@ -1,9 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>index.html</title>
+<title>โรงเรียนบ้านชำแระกลาง</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>index.html</h1>
+<header>
+  <img src="images/logo.png" alt="Logo" class="logo">
+  <h1 class="school-name">โรงเรียนบ้านชำแระกลาง</h1>
+  <nav class="top-nav">
+    <ul>
+      <li><a href="index.html">หน้าแรก</a></li>
+      <li><a href="about.html">เกี่ยวกับเรา</a></li>
+      <li><a href="academics.html">วิชาการ</a></li>
+      <li><a href="activities.html">กิจกรรม</a></li>
+      <li><a href="admissions.html">การรับสมัคร</a></li>
+    </ul>
+  </nav>
+</header>
+<nav class="side-nav">
+  <ul>
+    <li><a href="alumni.html">ศิษย์เก่า</a></li>
+    <li><a href="contact.html">ติดต่อเรา</a></li>
+    <li><a href="donations.html">การบริจาค</a></li>
+    <li><a href="gallery.html">แกลเลอรี่</a></li>
+    <li><a href="news.html">ข่าวสาร</a></li>
+    <li><a href="parents.html">ผู้ปกครอง</a></li>
+  </ul>
+</nav>
+<section class="page-header">
+  <div class="slideshow-container">
+    <div class="slides">
+      <img src="images/slide1.jpg" style="width:100%">
+      <img src="images/slide2.jpg" style="width:100%">
+      <img src="images/slide3.jpg" style="width:100%">
+      <img src="images/slide4.jpg" style="width:100%">
+      <img src="images/slide5.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+  </div>
+</section>
+<section class="page-body">
+  <article>
+    <h2>Introduction</h2>
+    <p>ยินดีต้อนรับสู่โรงเรียนบ้านชำแระกลาง โรงเรียนของเรามุ่งเน้นการพัฒนานักเรียนให้มีความรู้ความสามารถและคุณธรรม</p>
+  </article>
+  <article>
+    <h2>Services</h2>
+    <p>โรงเรียนของเรามีบริการต่างๆ เช่น ห้องสมุด, ห้องคอมพิวเตอร์, และกิจกรรมเสริมทักษะต่างๆ</p>
+  </article>
+  <article>
+    <h2>Contact Us</h2>
+    <p>หากคุณมีคำถามหรือข้อสงสัย สามารถติดต่อเราได้ที่เบอร์โทรศัพท์ 012-345-6789 หรืออีเมล info@school.com</p>
+  </article>
+</section>
+<aside class="right-content">
+  <img src="images/principal-image.jpg" alt="Principal" class="principal-img">
+  <p class="principal-name">นายวสันต์ นามวงศ์</p>
+  <p class="school-name">ผู้อำนวยการโรงเรียนบ้านชำแระกลาง</p>
+  <ul>
+    <li><a href="news.html">ข่าวสาร</a></li>
+    <li><a href="events.html">กิจกรรม</a></li>
+    <li><a href="announcements.html">ประกาศ</a></li>
+  </ul>
+</aside>
+<footer>
+  <p>© 2025 My Website. All rights reserved.</p>
+</footer>
+<script src="js/script.js"></script>
 </body>
 </html>
