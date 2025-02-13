@@ -4,18 +4,106 @@
 <title>โรงเรียนบ้านชำแระกลาง</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 <header>
-  <img src="images/logo.png" alt="Logo" class="logo">
-  <h1 class="school-name">โรงเรียนบ้านชำแระกลาง</h1>
+  <img src="images/school-name.png" alt="โรงเรียนบ้านชำแระกลาง" class="school-name-img">
   <nav class="top-nav">
     <ul>
       <li><a href="index.html">หน้าแรก</a></li>
-      <li><a href="about.html">เกี่ยวกับเรา</a></li>
-      <li><a href="academics.html">วิชาการ</a></li>
-      <li><a href="activities.html">กิจกรรม</a></li>
+      <li class="dropdown">
+        <a href="about.html" class="dropbtn">เกี่ยวกับโรงเรียน <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="about.html">เกี่ยวกับโรงเรียน</a>
+          <a href="history.html">ประวัติโรงเรียน</a>
+          <a href="executives.html">ทำเนียบผู้บริหาร</a>
+          <a href="structure.html">โครงสร้างการบริหาร</a>
+          <a href="management.html">คณะผู้บริหาร</a>
+          <a href="committee.html">คณะกรรมการสถานศึกษา</a>
+          <a href="basic-info.html">ข้อมูลพื้นฐาน</a>
+          <a href="curriculum.html">หลักสูตรสถานศึกษา</a>
+          <a href="information.html">สารสนเทศ</a>
+          <a href="emblem.html">ตราประจำโรงเรียน</a>
+          <a href="awards.html">รางวัลเกียรติยศ</a>
+          <a href="contact.html">ติดต่อโรงเรียน</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="academics.html" class="dropbtn">กลุ่มสาระการเรียนรู้ <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="thai.html">กลุ่มสาระฯ ภาษาไทย</a>
+          <a href="math.html">กลุ่มสาระฯ คณิตศาสตร์</a>
+          <a href="science.html">กลุ่มสาระฯ วิทยาศาสตร์</a>
+          <a href="social.html">กลุ่มสาระฯ สังคมศึกษาฯ</a>
+          <a href="health.html">กลุ่มสาระฯ สุขศึกษาและพลศึกษา</a>
+          <a href="art.html">กลุ่มสาระฯ ศิลปะ</a>
+          <a href="technology.html">กลุ่มสาระฯ การงานอาชีพและเทคโนโลยี</a>
+          <a href="foreign.html">กลุ่มสาระฯ ภาษาต่างประเทศ</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="activities.html" class="dropbtn">กิจกรรม <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="activity1.html">ช่วงชั้นที่ 1</a>
+          <a href="activity2.html">ช่วงชั้นที่ 2</a>
+          <a href="activity3.html">ช่วงชั้นที่ 3</a>
+        </div>
+      </li>
       <li><a href="admissions.html">การรับสมัคร</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">สำหรับครู <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="teacher-grades.html">กรอกผลการเรียน</a>
+          <a href="teacher-meeting.html">ระบบจองห้องประชุม</a>
+          <a href="teacher-online.html">ระบบจัดการห้องเรียนออนไลน์</a>
+          <a href="teacher-report.html">รายงานการสอนออนไลน์</a>
+          <a href="teacher-elective.html">ระบบวิชาเลือก/ชุมนุม</a>
+          <a href="teacher-forms.html">แบบฟอร์มการให้บริการงานบุคคล</a>
+          <a href="teacher-finance.html">แบบฟอร์มการให้บริการงานการเงิน</a>
+          <a href="teacher-general.html">แบบฟอร์มบริการกลุ่มบริหารทั่วไป</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">สำหรับนักเรียน <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="student-rules.html">ระเบียบโรงเรียน ปีการศึกษา 2568</a>
+          <a href="student-guide.html">คู่มือนักเรียน 2566</a>
+          <a href="student-schedule.html">ตารางเรียน</a>
+          <a href="student-forms.html">แบบฟอร์มกิจการนักเรียน</a>
+          <a href="student-elective.html">ระบบลงทะเบียนวิชาเลือก/ชุมนุม</a>
+          <a href="student-documents.html">ขอเอกสารหลักฐานการศึกษา</a>
+          <a href="student-resources.html">แหล่งเรียนรู้</a>
+          <a href="student-emblem.html">ตราประจำโรงเรียน</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">เว็บไซต์/เพจ <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="pr-page.html">เพจงานประชาสัมพันธ์ โรงเรียน</a>
+          <a href="parent-association.html">สมาคมผู้ปกครองและครู</a>
+          <a href="parent-network.html">เพจเครือข่ายผู้ปกครองนักเรียน</a>
+          <a href="alumni-association.html">สมาคมนักเรียนเก่า</a>
+          <a href="alumni-page.html">เพจสมาคมศิษย์เก่า</a>
+          <a href="rordor-page.html">เพจกิจกรรมรักษาดินแดน</a>
+          <a href="ep-page.html">เพจโครงการ English Program</a>
+          <a href="special-class-page.html">เพจโครงการห้องเรียนพิเศษ</a>
+          <a href="science-page.html">เพจกลุ่มสาระฯ วิทยาศาสตร์และเทคโนโลยี</a>
+          <a href="health-page.html">เพจกลุ่มสาระฯ สุขศึกษาและพลศึกษา</a>
+          <a href="math-page.html">เพจกลุ่มสาระฯ คณิตศาสตร์</a>
+          <a href="foreign-page.html">เพจกลุ่มสาระฯ ภาษาต่างประเทศ</a>
+          <a href="publications.html">เอกสารเผยแพร่</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">💡 ITA <i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="ita-2567.html">ปี 2567</a>
+          <a href="ita-2566.html">ปี 2566</a>
+          <a href="ita-2565.html">ปี 2565</a>
+          <a href="ita-2564.html">ปี 2564</a>
+        </div>
+      </li>
     </ul>
   </nav>
 </header>
@@ -62,6 +150,55 @@
     <h2>Contact Us</h2>
     <p>หากคุณมีคำถามหรือข้อสงสัย สามารถติดต่อเราได้ที่เบอร์โทรศัพท์ 012-345-6789 หรืออีเมล info@school.com</p>
   </article>
+  <article>
+    <h2>Facebook Page</h2>
+    <div class="fb-page" 
+         data-href="https://www.facebook.com/crkfp" 
+         data-tabs="timeline" 
+         data-width="500" 
+         data-height="800" 
+         data-small-header="false" 
+         data-adapt-container-width="true" 
+         data-hide-cover="false" 
+         data-show-facepile="true">
+      <blockquote cite="https://www.facebook.com/crkfp" class="fb-xfbml-parse-ignore">
+        <a href="https://www.facebook.com/crkfp">โรงเรียนบ้านชำแระกลาง</a>
+      </blockquote>
+    </div>
+  </article>
+  <article>
+    <h2>Statistics</h2>
+    <div class="statistics">
+      <div class="stat-item">
+        <i class="fas fa-user-graduate fa-3x"></i>
+        <span class="elementor-counter-number-prefix"></span>
+        <span class="elementor-counter-number" data-duration="2000" data-to-value="3235" data-from-value="0" data-delimiter=",">0</span>
+        <span class="elementor-counter-number-suffix"></span>
+        <div class="elementor-counter-title">จำนวนนักเรียน</div>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-chalkboard-teacher fa-3x"></i>
+        <span class="elementor-counter-number-prefix"></span>
+        <span class="elementor-counter-number" data-duration="2000" data-to-value="87" data-from-value="0" data-delimiter=",">0</span>
+        <span class="elementor-counter-number-suffix"></span>
+        <div class="elementor-counter-title">จำนวนห้องเรียน</div>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-user-tie fa-3x"></i>
+        <span class="elementor-counter-number-prefix"></span>
+        <span class="elementor-counter-number" data-duration="2000" data-to-value="157" data-from-value="0" data-delimiter=",">0</span>
+        <span class="elementor-counter-number-suffix"></span>
+        <div class="elementor-counter-title">จำนวนผู้บริหารและข้าราชการครู</div>
+      </div>
+      <div class="stat-item">
+        <i class="fas fa-users fa-3x"></i>
+        <span class="elementor-counter-number-prefix"></span>
+        <span class="elementor-counter-number" data-duration="2000" data-to-value="200" data-from-value="0" data-delimiter=",">0</span>
+        <span class="elementor-counter-number-suffix"></span>
+        <div class="elementor-counter-title">จำนวนบุคลากรทางการศึกษา</div>
+      </div>
+    </div>
+  </article>
 </section>
 <aside class="right-content">
   <img src="images/principal-image.jpg" alt="Principal" class="principal-img">
@@ -77,5 +214,49 @@
   <p>© 2025 My Website. All rights reserved.</p>
 </footer>
 <script src="js/script.js"></script>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="YOUR_NONCE"></script>
+<script>
+  // Counter animation
+  document.addEventListener('DOMContentLoaded', function() {
+    const counters = document.querySelectorAll('.elementor-counter-number');
+    const speed = 200; // The lower the slower
+
+    counters.forEach(counter => {
+      const updateCount = () => {
+        const target = +counter.getAttribute('data-to-value');
+        const count = +counter.innerText.replace(/,/g, '');
+        const increment = target / speed;
+
+        if (count < target) {
+          counter.innerText = Math.ceil(count + increment).toLocaleString();
+          setTimeout(updateCount, 1);
+        } else {
+          counter.innerText = target.toLocaleString();
+        }
+      };
+
+      const isElementInViewport = (el) => {
+        const rect = el.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      };
+
+      const runCounter = () => {
+        if (isElementInViewport(counter)) {
+          updateCount();
+          window.removeEventListener('scroll', runCounter);
+        }
+      };
+
+      window.addEventListener('scroll', runCounter);
+    });
+  });
+</script>
 </body>
 </html>

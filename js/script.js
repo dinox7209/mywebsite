@@ -5,10 +5,12 @@ function showSlides() {
   let slides = document.querySelectorAll(".slides img");
   let dots = document.querySelectorAll(".dot");
   slides.forEach((slide, index) => {
-    slide.style.display = index === slideIndex ? "block" : "none";
-  });
-  dots.forEach((dot, index) => {
-    dot.className = index === slideIndex ? "dot active" : "dot";
+    slide.classList.remove("active");
+    dots[index].classList.remove("active");
+    if (index === slideIndex) {
+      slide.classList.add("active");
+      dots[index].classList.add("active");
+    }
   });
   slideIndex = (slideIndex + 1) % slides.length;
   setTimeout(showSlides, 3000); // Change image every 3 seconds
